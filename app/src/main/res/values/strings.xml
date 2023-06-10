@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FoodiesWorld</string>
+    <string name="title_activity_first_page">FirstPage</string>
+
+
+    <string-array name="area_arr">
+        <item>"Mirpur"</item>
+        <item>"Banani"</item>
+        <item>"Gulshan"</item>
+        <item>"Khilgaon"</item>
+        <item>"Bashundhara"</item>
+        <item>"Mohammadpur"</item>
+        <item>"Dhanmondi"</item>
+        <item>"Keranigonj"</item>
+        <item>"Mohakhali"</item>
+        <item>"Matikata"</item>
+    </string-array>
+
+    <string-array name="city_arr">
+        <item>"Dhaka"</item>
+        <item>"Rajshahi"</item>
+        <item>"Chittagong"</item>
+        <item>"Barisal"</item>
+        <item>"Mymensing"</item>
+        <item>"Comilla"</item>
+        <item>"Khulna"</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_website">Website</string>
+
+</resources>

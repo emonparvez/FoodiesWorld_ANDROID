@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHome"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="HELLO ADMIN"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#b77910f2"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/restaurant"
+        android:text=" Add new restaurant "
+        android:background="#B0C9FD"
+        android:id="@+id/insertRestaurant"
+        android:layout_marginRight="20sp"
+        />
+
+        <Button
+            android:id="@+id/insertMenu"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:background="#B0C9FD"
+            android:drawableTop="@drawable/food_icon"
+            android:text="Add new menu  " />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Click on the post that you would like to approve...:)"
+        android:textAlignment="center"
+        android:textSize="15sp"/>
+
+    <ListView
+        android:id="@+id/listViewIdAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5sp"
+        android:listSelector="#a5eabe85"
+        >
+
+    </ListView>
+
+</LinearLayout>
